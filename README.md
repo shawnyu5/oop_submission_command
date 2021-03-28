@@ -7,7 +7,7 @@ Generates a submisson command to submit OOP workshops. Based on information you 
 to download the file necessary
 
 ```bash
-git clone https://github.com/shawnyu5/oop_submission_command
+git clone https://github.com/shawnyu5/oop_submission_generator
 ```
 to add following code to bashrc:
 ```bash
