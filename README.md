@@ -1,6 +1,6 @@
-# oop_submission_generator 
+# oop submission command generator 
 
-Generates a submisson command to submit OOP workshops. Based on information you enter
+Generates a submisson command to submit OOP workshops. Based on information the user enters
 
 # On Linux/ Bash enviroment
 
