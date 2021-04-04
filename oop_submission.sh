@@ -10,8 +10,15 @@ function submit
     read -p "what is the prof's last name? " LASTNAME
     read -p "what course section is this? (2??) " SECTION
     read -p "which workshop are you submitting? (numerical value) " WS
-    read -p "Which part of the workshop are you submitting? (1/ 2?) " PART
+    read -p "Which part of the workshop are you submitting? (1/2?) " PART
 
-    echo "your submission command is: "
+    echo -e "\nyour submission command is: "
     echo "~$FIRSTNAME.$LASTNAME/submit $SECTION/w$WS/p$PART"
+    echo -e "\nrun command? (y/n)"
+    read yesNo
+    if [ "$yesNo" = 'y' ] || [ "$yesNo" = 'Y' ] || [ "$yesNo" = "" ]; then
+        "~$FIRSTNAME.$LASTNAME/submit $SECTION/w$WS/p$PART"
+    fi
+
 }
+submit
