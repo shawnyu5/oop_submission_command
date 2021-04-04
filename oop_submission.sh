@@ -21,4 +21,3 @@ function submit
     fi
 
 }
-submit
